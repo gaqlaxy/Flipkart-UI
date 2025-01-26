@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Header  */
+  .profile:hover > .profile-arrow {
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .profile > .profile-arrow {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .profile-dropdown {
+    display: none;
+  }
+  .profile:hover > .profile-dropdown {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 200px;
+  }
+
+  .menu-header:hover {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-dropdown {
+    display: none;
+  }
+  .menu-header:hover > .menu-dropdown {
+    display: block;
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    width: 200px;
+  }
+}
