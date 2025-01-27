@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <>
-      <header className="flex items-center  justify-evenly  m-4 relative">
+      <header className="flex items-center  justify-evenly  py-4 relative">
         <div className="flex  gap-16 items-center">
           <img
             src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_plus-055f80.svg"
@@ -180,7 +180,7 @@ export default function Header() {
             alt=""
             className="w-5"
           />
-          <a href="">cart</a>
+          <a href="">Cart</a>
         </div>
         <div className="flex gap-1">
           <img

@@ -9,6 +9,10 @@
     box-sizing: border-box;
   }
 
+  body {
+    background-color: #d8dadd;
+  }
+
   /* Header  */
   .profile:hover > .profile-arrow {
     transform: rotate(180deg);
@@ -28,6 +32,7 @@
     top: 40px;
     left: 0px;
     width: 200px;
+    z-index: 1;
   }
 
   .menu-header:hover {
@@ -44,5 +49,49 @@
     top: 40px;
     right: 0px;
     width: 200px;
+    z-index: 1;
+  }
+  header {
+    padding-bottom: 20px;
+    background-color: #fff;
+  }
+
+  /* Navbar */
+  .section {
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    top: 108px;
+    z-index: 100;
+    width: 230px;
+    border-radius: 1px;
+    font-size: 14px;
+  }
+
+  .section:hover .dropdown {
+    display: block;
+  }
+  .nav-section:hover .dropdown {
+    display: block;
+    background-color: white;
+  }
+  .subdropdown {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    display: none;
+    padding: 10px;
+  }
+  .dropdown:hover .subdropdown {
+    display: block;
   }
 }
