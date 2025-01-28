@@ -14,43 +14,15 @@
   }
 
   /* Header  */
-  .profile:hover > .profile-arrow {
-    transform: rotate(180deg);
-    transition: all 0.3s ease-in-out;
-  }
 
-  .profile > .profile-arrow {
-    transition: all 0.3s ease-in-out;
-  }
 
-  .profile-dropdown {
-    display: none;
-  }
-  .profile:hover > .profile-dropdown {
-    display: block;
-    position: absolute;
-    top: 40px;
-    left: 0px;
-    width: 200px;
-    z-index: 1;
-  }
-
+ 
+ 
   .menu-header:hover {
     transition: all 0.3s ease-in-out;
   }
 
-  .menu-dropdown {
-    display: none;
-  }
-  .menu-header:hover > .menu-dropdown {
-    display: block;
-    display: block;
-    position: absolute;
-    top: 40px;
-    right: 0px;
-    width: 200px;
-    z-index: 1;
-  }
+ 
   header {
     padding-bottom: 20px;
     background-color: #fff;
@@ -83,12 +55,12 @@
     background-color: white;
   }
   .subdropdown {
+    display: none;
     position: absolute;
     top: 0;
     left: 100%;
     background: white;
     border: 1px solid #ccc;
-    display: none;
     padding: 10px;
   }
   .dropdown:hover .subdropdown {
