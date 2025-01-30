@@ -1,0 +1,29 @@
+{
+    "deals": [
+        {
+            "id": 1,
+            "name": "Poco M4",
+            "image": "https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/n/d/r/g35-5g-pb3h0001in-motorola-original-imah7c6xhkfbzf52.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 2,
+            "name": "Redmi 9A",
+            "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/w/f/w/g35-5g-pb3h0001in-motorola-original-imah7c6xqu6p8cxm.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 3,
+            "name": "Redmi Note 10",
+            "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/e/6/4/g35-5g-pb3h0002in-motorola-original-imah7c6wzezymef7.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "name": "Redmi Note 10 Pro",
+            "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/s/7/4/g35-5g-pb3h0002in-motorola-original-imah7c6w3zjhedep.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 5,
+            "name": "Redmi Note 10 Pro Max",
+            "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/h/g/z/-original-imah7jsp8bh3s4rv.jpeg?q=70&crop=false"
+        }
+    ]
+}

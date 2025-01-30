@@ -67,8 +67,17 @@ export default function HeroSection() {
           </button>
         </div>
 
-        <div>
-            
+        {/* slide indicators  */}
+        <div className="absolute bottom-[35%] left-1/2 -translate-x-1/2 flex gap-2">
+          {slides.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentSlide(index)}
+              className={`w-3 h-3 rounded-full ${
+                currentSlide === index ? "bg-red-500" : "bg-gray-300"
+              }`}
+            ></button>
+          ))}
         </div>
       </main>
     </>

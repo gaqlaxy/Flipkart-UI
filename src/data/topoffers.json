@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Wireless Headphones",
+            "price": 2999,
+            "image": "https://example.com/headphones.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Men's Casual Shirt",
+            "price": 899,
+            "image": "https://example.com/shirt.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Smartphone",
+            "price": 59999,
+            "image": "https://example.com/smartphone.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Laptop",
+            "price": 79999,
+            "image": "https://example.com/laptop.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Women's Casual Dress",
+            "price": 1499,
+            "image": "https://example.com/dress.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Camera",
+            "price": 39999,
+            "image": "https://example.com/camera.jpg"
+        }
+    ]
+}
