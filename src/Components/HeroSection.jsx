@@ -14,7 +14,7 @@ export default function HeroSection() {
   };
   return (
     <>
-      <main className="mx-3 my-3">
+      <main className="mx-3 my-3 relative">
         <div className="relative h-[300px] overflow-hidden">
           <div
             className="flex transition-transform duration-500 ease-in-out"
@@ -68,7 +68,7 @@ export default function HeroSection() {
         </div>
 
         {/* slide indicators  */}
-        <div className="absolute bottom-[35%] left-1/2 -translate-x-1/2 flex gap-2">
+        <div className="absolute bottom-[18%] left-1/2 -translate-x-1/2 flex gap-2">
           {slides.map((_, index) => (
             <button
               key={index}
