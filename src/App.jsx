@@ -5,6 +5,7 @@ import HeroSection from "./Components/HeroSection";
 import TopOffers from "./Components/TopOffers";
 import BestMobileDeals from "./Components/BestMobileDeals";
 import Hero_OfferCards1 from "./Components/Hero_OfferCards1";
+import HeroCards2 from "./Pages/HeroCards2";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <TopOffers />
       <BestMobileDeals />
       <Hero_OfferCards1 />
+      <HeroCards2 />
     </>
   );
 }

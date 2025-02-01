@@ -1,0 +1,28 @@
+{
+    "cardeals1": [
+        {
+            "id": 1,
+            "title": "Topwear",
+            "price": "Min 50% Off",
+            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/a/o/h/xxl-box01-jackbella-original-imah8nrbtup5pdab.jpeg?q=70"
+        },
+        {
+            "id": 2,
+            "title": "Jewellery",
+            "price": "Min 70% Off",
+            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-jewellery-set/5/z/a/x21-lt-sm21-cp-od-kc-mangalsutra-earring-set-yembon-original-imagzbrzz5a4d5mq.jpeg?q=70"
+        },
+        {
+            "id": 3,
+            "title": "Smart Watches",
+            "price": "Min 40% Off",
+            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/g/k/p/49-t800-ultra-special-edition-smartwatch-with-bluetooth-calling-original-imah5yk2xxnjmgbt.jpeg?q=70"
+        },
+        {
+            "id": 4,
+            "title": "Women's Ethnic Sets",
+            "price": "Min 50% Off",
+            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/ethnic-set/a/s/i/m-s-f125-siyafabkurti-original-imah5tq5hdjgh8mq.jpeg?q=70"
+        }
+    ]
+}

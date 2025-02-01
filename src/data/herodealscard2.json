@@ -1,0 +1,28 @@
+{
+    "cardeals2": [
+        {
+            "id": 1,
+            "title": "Men's Slippers",
+            "price": "Min 70% Off",
+            "image": "https://rukminim2.flixcart.com/image/612/612/l432ikw0/slipper-flip-flop/q/0/x/9-pk-ms-024bk-025gr-pkkart-black-grey-original-imagf24kguc5nrph.jpeg?q=70"
+        },
+        {
+            "id": 2,
+            "title": "Men's Casual Shoes",
+            "price": "Min 70% Off",
+            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/t/g/f/9-100-corsac-red-original-imagzx8v3hzh9tjr.jpeg?q=70"
+        },
+        {
+            "id": 3,
+            "title": "Trimmers",
+            "price": "Min 50% Off",
+            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/trimmer/x/r/l/0-25-4-mm-trimmer-men-titanium-coated-corded-cordless-misuhrobir-original-imah2ufk2nmskxr7.jpeg?q=70"
+        },
+        {
+            "id": 4,
+            "title": "Backpacks",
+            "price": "Min 70% Off",
+            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/bag/6/v/c/30-laptop-backpack-unisex-spacy-with-rain-cover-and-reflective-original-imah6b3yfzsh9fma.jpeg?q=70"
+        }
+    ]
+}
