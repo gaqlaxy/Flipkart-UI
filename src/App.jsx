@@ -6,6 +6,7 @@ import TopOffers from "./Components/TopOffers";
 import BestMobileDeals from "./Components/BestMobileDeals";
 import Hero_OfferCards1 from "./Components/Hero_OfferCards1";
 import HeroCards2 from "./Pages/HeroCards2";
+import HeroDealsCard3 from "./Components/HeroDealsCard3";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <BestMobileDeals />
       <Hero_OfferCards1 />
       <HeroCards2 />
+      <HeroDealsCard3 />
     </>
   );
 }
