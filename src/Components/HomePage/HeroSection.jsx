@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { slides } from "../data/heroimages.json";
+import { slides } from "../../data/Homepage/heroimages.json";
 console.log(slides);
 
 export default function HeroSection() {

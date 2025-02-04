@@ -1,14 +1,12 @@
 import React, { useState } from "react";
-import navData from "../data/nav.json";
+import navData from "../../data/nav.json";
 export default function Navbar() {
-  
   const [activeSection, setActiveSection] = useState(null);
   const [activeDropdown, setActiveDropdown] = useState(null);
 
   return (
     <>
       <nav className="flex justify-center gap-10 items-center bg-white mt-2 mx-3 py-2 relative">
-
         {navData.sections.map((items) => (
           <div
             key={items.id}
@@ -43,7 +41,7 @@ export default function Navbar() {
                     {dropdownItem.subdropdown &&
                       activeDropdown === dropdownItem.id && (
                         <div className="absolute left-full top-0 ml-1 bg-white shadow-lg min-w-[200px] p-2 z-50">
-                        {/* <div className="absolute left-[203px] top-[-8px] bg-white shadow-lg min-w-[200px] p-2 z-50"> */}
+                          {/* <div className="absolute left-[203px] top-[-8px] bg-white shadow-lg min-w-[200px] p-2 z-50"> */}
                           {dropdownItem.subdropdown.map((subItem) => (
                             <a
                               key={subItem.id}

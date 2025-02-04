@@ -1,5 +1,5 @@
 import { useState } from "react";
-import productsData from "../data/topoffers.json";
+import productsData from "../../data/Homepage/topoffers.json";
 
 export default function TopOffers() {
   const [products, setProducts] = useState(productsData.products);

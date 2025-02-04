@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "./Components/Header";
-import Navbar from "./Components/Navbar";
-import HeroSection from "./Components/HeroSection";
-import TopOffers from "./Components/TopOffers";
-import BestMobileDeals from "./Components/BestMobileDeals";
-import Hero_OfferCards1 from "./Components/Hero_OfferCards1";
+import Header from "./Components/HomePage/Header";
+import Navbar from "./Components/HomePage/Navbar";
+import HeroSection from "./Components/HomePage/HeroSection";
+import TopOffers from "./Components/HomePage/TopOffers";
+import BestMobileDeals from "./Components/HomePage/BestMobileDeals";
+import Hero_OfferCards1 from "./Components/HomePage/Hero_OfferCards1";
 import HeroCards2 from "./Pages/HeroCards2";
-import HeroDealsCard3 from "./Components/HeroDealsCard3";
+import HeroDealsCard3 from "./Components/HomePage/HeroDealsCard3";
 import HeroCards3 from "./Pages/HeroCards3";
-import HeroDealsCard6 from "./Components/HeroDealsCard6";
+import HeroDealsCard6 from "./Components/HomePage/HeroDealsCard6";
 
 export default function App() {
   return (
