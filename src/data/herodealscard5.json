@@ -1,0 +1,28 @@
+{
+    "herodeals5": [
+        {
+            "id": 1,
+            "title": "Casual Shirts",
+            "price": "Hand Picked",
+            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/y/c/z/l-towel-aidan-paul-original-imah48xeaevsahy8.jpeg?q=70"
+        },
+        {
+            "id": 2,
+            "title": "Men's T-Shirts",
+            "price": "Popular",
+            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/f/h/n/l-grey-1-adam-white-original-imahyz5pffyyyhrx.jpeg?q=70"
+        },
+        {
+            "id": 3,
+            "title": "Smart Watches",
+            "price": "Min 50% Off",
+            "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/t/v/z/-original-imah63b2hzuzehaf.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "title": "Speakers",
+            "price": "Min 30% Off",
+            "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/t/0/n/-original-imah4bzezrvt7bzp.jpeg?q=70&crop=false"
+        }
+    ]
+}

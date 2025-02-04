@@ -1,0 +1,28 @@
+{
+    "herodeals4": [
+        {
+            "id": 1,
+            "title": "Cups & Saucers",
+            "price": "New Range",
+            "image": "https://rukminim2.flixcart.com/image/416/416/klicfww0/mug/m/h/k/white-multi-pari-50-6-the-india-style-original-imagymh8wbrjqcpq.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 2,
+            "title": "Bookshelves",
+            "price": "Min 50% Off",
+            "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/book-shelf/l/o/c/28-carbon-steel-58-1-2-4-layer-maron-11-attache-72-maroon-4-original-imah3g43ggzpyabr.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 3,
+            "title": "Home Temple",
+            "price": "Min 50% Off",
+            "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/home-temple/i/0/t/8-75-16-2-3-teample-t3-foxit-18-original-imah8hyhcrfxmwyn.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "title": "Artificial Flowers",
+            "price": "Min 50% Off",
+            "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/artificial-flower/d/y/5/8-8poys-ryme-original-imah6zzj8zyzghpg.jpeg?q=70&crop=false"
+        }
+    ]
+}
