@@ -5,17 +5,18 @@ console.log(heroad4);
 export default function HeroAdCard4() {
   return (
     <>
-      <div>
+ 
         {heroad4.map((adItems) => (
-          <div key={adItems.id}>
+          <div key={adItems.id} className="col-span-2 h-full">
             <img
               src={adItems.image}
               alt=""
-              className="w-full h-full object-contain"
+              className="h-full"
+              
             />
           </div>
         ))}
-      </div>
+    
     </>
   );
 }
