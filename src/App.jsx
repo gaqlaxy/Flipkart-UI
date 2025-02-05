@@ -12,6 +12,7 @@ import HeroDealsCard6 from "./Components/HomePage/HeroDealsCard6";
 import HeroCards4 from "./Pages/HeroCards4";
 import RecommendedItems from "./Components/HomePage/RecommendedItems";
 import BrandDirectories from "./Components/HomePage/BrandDirectories";
+import Footer from "./Components/Footer";
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
       <HeroCards4 />
       <RecommendedItems />
       <BrandDirectories />
+      <Footer />
     </>
   );
 }
