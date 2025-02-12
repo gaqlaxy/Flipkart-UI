@@ -13,11 +13,19 @@ import HeroCards4 from "./Pages/HeroCards4";
 import RecommendedItems from "./Components/HomePage/RecommendedItems";
 import BrandDirectories from "./Components/HomePage/BrandDirectories";
 import Footer from "./Components/Footer";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Mobiles from "./Pages/Mobiles";
+
+
+
 
 export default function App() {
   return (
     <>
-      <Header />
+    
+      <Routes>
+        <Route path="/" element={<>
+          <Header />
       <Navbar />
       <HeroSection />
       <TopOffers />
@@ -31,6 +39,15 @@ export default function App() {
       <RecommendedItems />
       <BrandDirectories />
       <Footer />
+        </>} />
+    
+        
+        <Route path="/Mobiles" element={<Mobiles />} />
+        
+      </Routes>
+    
+
+      
     </>
   );
 }

@@ -6,7 +6,7 @@ import HeroAdCard2 from "../Components/HomePage/HeroAdCard2";
 export default function HeroCards2() {
   return (
     <>
-      <div className="grid grid-cols-3 gap-4 p-4">
+      <div className="grid grid-cols-3 gap-4 my-3 mx-3">
         <HeroDealsCard1 />
         <HeroDealsCard2 />
         <HeroAdCard2 />

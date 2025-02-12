@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import navData from "../../data/nav.json";
+import { Link } from 'react-router-dom';
+
 export default function Navbar() {
   const [activeSection, setActiveSection] = useState(null);
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -18,10 +20,10 @@ export default function Navbar() {
             }}
           >
             {/* Main Navigation  */}
-            <a href="#" className="flex flex-col items-center">
+            <Link key={items.id} to={items.path} href="#" className="flex flex-col items-center">
               <img src={items.image} alt="" className="w-10 h-10" />
               <span className="font-semibold text-[14px]">{items.name}</span>
-            </a>
+            </Link>
 
             {/* Dropdown */}
             {items.hasDropdown && activeSection === items.id && (

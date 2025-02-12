@@ -5,17 +5,17 @@ console.log(deals);
 export default function BestMobileDeals() {
   return (
     <>
-      <div className="mx-3 mt-5 bg-slate-600 ">
-        <h1>Best Mobile </h1>
+      <div className="mx-3 mt-5 bg-white p-3">
+        <h1 className="text-2xl font-semibold">Best of Mobiles </h1>
         <div className="flex justify-around">
           {deals.map((mobileDeals, index) => (
-            <div key={index} className=" p-3 my-3">
+            <div key={index} className=" p-3 my-3 flex flex-col items-center gap-5">
               <img
-                src="{mobileDeals.image}"
+                src={mobileDeals.image}
                 alt=""
-                className="w-[220px] h-52"
+                className="w-auto h-52"
               />
-              <h2>{mobileDeals.name}</h2>
+              <h2 className="text-lg font-semibold">{mobileDeals.name}</h2>
             </div>
           ))}
         </div>

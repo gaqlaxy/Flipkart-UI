@@ -1,758 +1,761 @@
 {
-    "sections": [
+  "sections": [
+    {
+      "id": 1,
+      "name": "Grocery",
+      "hasDropdown": false,
+      "path": "/grocery",
+      "image": "https://rukminim2.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png?q=100"
+    },
+    {
+      "id": 2,
+      "name": "Mobiles",
+      "hasDropdown": false,
+      "path": "/Mobiles",
+
+      "image": "https://rukminim2.flixcart.com/flap/80/80/image/22fddf3c7da4c4f4.png?q=100"
+    },
+    {
+      "id": 3,
+      "name": "Fashion",
+      "hasDropdown": true,
+      "image": "https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0d75b34f7d8fbcb3.png?q=100",
+      "dropdown": [
         {
-            "id": 1,
-            "name": "Grocery",
-            "hasDropdown": false,
-            "image": "https://rukminim2.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png?q=100"
+          "id": 50,
+          "name": "Men",
+          "subdropdown": [
+            {
+              "id": 101,
+              "name": "Tshirts"
+            },
+            {
+              "id": 102,
+              "name": "Jeans"
+            },
+            {
+              "id": 103,
+              "name": "Shirts"
+            },
+            {
+              "id": 104,
+              "name": "Trousers"
+            },
+            {
+              "id": 105,
+              "name": "Kurtas"
+            },
+            {
+              "id": 106,
+              "name": "Suits"
+            },
+            {
+              "id": 107,
+              "name": "Raincoat"
+            },
+            {
+              "id": 108,
+              "name": "Jackets"
+            },
+            {
+              "id": 109,
+              "name": "Fabrics"
+            }
+          ]
         },
         {
-            "id": 2,
-            "name": "Mobiles",
-            "hasDropdown": false,
-            "image": "https://rukminim2.flixcart.com/flap/80/80/image/22fddf3c7da4c4f4.png?q=100"
+          "id": 51,
+          "name": "Women",
+          "subdropdown": [
+            {
+              "id": 110,
+              "name": "All"
+            },
+            {
+              "id": 111,
+              "name": "Sarees"
+            },
+            {
+              "id": 112,
+              "name": "Kurtas & Kurtis"
+            },
+            {
+              "id": 113,
+              "name": "Salwar Suits"
+            },
+            {
+              "id": 114,
+              "name": "Ethnic Wear"
+            },
+            {
+              "id": 115,
+              "name": "Dress Materials"
+            },
+            {
+              "id": 116,
+              "name": "Gowns"
+            },
+            {
+              "id": 117,
+              "name": "Lehenga"
+            },
+            {
+              "id": 118,
+              "name": "Leggings"
+            },
+            {
+              "id": 119,
+              "name": "Blouse"
+            },
+            {
+              "id": 120,
+              "name": "Dupatta"
+            }
+          ]
         },
         {
-            "id": 3,
-            "name": "Fashion",
-            "hasDropdown": true,
-            "image": "https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0d75b34f7d8fbcb3.png?q=100",
-            "dropdown": [
-                {
-                    "id": 50,
-                    "name": "Men",
-                    "subdropdown": [
-                        {
-                            "id": 101,
-                            "name": "Tshirts"
-                        },
-                        {
-                            "id": 102,
-                            "name": "Jeans"
-                        },
-                        {
-                            "id": 103,
-                            "name": "Shirts"
-                        },
-                        {
-                            "id": 104,
-                            "name": "Trousers"
-                        },
-                        {
-                            "id": 105,
-                            "name": "Kurtas"
-                        },
-                        {
-                            "id": 106,
-                            "name": "Suits"
-                        },
-                        {
-                            "id": 107,
-                            "name": "Raincoat"
-                        },
-                        {
-                            "id": 108,
-                            "name": "Jackets"
-                        },
-                        {
-                            "id": 109,
-                            "name": "Fabrics"
-                        }
-                    ]
-                },
-                {
-                    "id": 51,
-                    "name": "Women",
-                    "subdropdown": [
-                        {
-                            "id": 110,
-                            "name": "All"
-                        },
-                        {
-                            "id": 111,
-                            "name": "Sarees"
-                        },
-                        {
-                            "id": 112,
-                            "name": "Kurtas & Kurtis"
-                        },
-                        {
-                            "id": 113,
-                            "name": "Salwar Suits"
-                        },
-                        {
-                            "id": 114,
-                            "name": "Ethnic Wear"
-                        },
-                        {
-                            "id": 115,
-                            "name": "Dress Materials"
-                        },
-                        {
-                            "id": 116,
-                            "name": "Gowns"
-                        },
-                        {
-                            "id": 117,
-                            "name": "Lehenga"
-                        },
-                        {
-                            "id": 118,
-                            "name": "Leggings"
-                        },
-                        {
-                            "id": 119,
-                            "name": "Blouse"
-                        },
-                        {
-                            "id": 120,
-                            "name": "Dupatta"
-                        }
-                    ]
-                },
-                {
-                    "id": 52,
-                    "name": "Men Footwear",
-                    "subdropdown": [
-                        {
-                            "id": 121,
-                            "name": "Casual Shoes"
-                        },
-                        {
-                            "id": 122,
-                            "name": "Sports Shoes"
-                        },
-                        {
-                            "id": 123,
-                            "name": "Formal Shoes"
-                        },
-                        {
-                            "id": 124,
-                            "name": "Sandals & Floaters"
-                        },
-                        {
-                            "id": 125,
-                            "name": "Flip Flops"
-                        },
-                        {
-                            "id": 126,
-                            "name": "Shoe Care"
-                        }
-                    ]
-                },
-                {
-                    "id": 53,
-                    "name": "Women Footwear",
-                    "subdropdown": [
-                        {
-                            "id": 127,
-                            "name": "Flats"
-                        },
-                        {
-                            "id": 128,
-                            "name": "Heels"
-                        },
-                        {
-                            "id": 129,
-                            "name": "Wedges"
-                        },
-                        {
-                            "id": 130,
-                            "name": "Wedges"
-                        },
-                        {
-                            "id": 131,
-                            "name": "Flip Flops"
-                        },
-                        {
-                            "id": 132,
-                            "name": "Casual Shoes"
-                        },
-                        {
-                            "id": 133,
-                            "name": "Sandals"
-                        },
-                        {
-                            "id": 134,
-                            "name": "Boots"
-                        },
-                        {
-                            "id": 135,
-                            "name": "Shoe Care"
-                        },
-                        {
-                            "id": 136,
-                            "name": "Sneakers"
-                        }
-                    ]
-                },
-                {
-                    "id": 54,
-                    "name": "Watches and Accessories",
-                    "subdropdown": [
-                        {
-                            "id": 137,
-                            "name": "Men's Watches"
-                        },
-                        {
-                            "id": 138,
-                            "name": "Women's Watches"
-                        },
-                        {
-                            "id": 139,
-                            "name": "Wallets"
-                        },
-                        {
-                            "id": 140,
-                            "name": "Belts"
-                        },
-                        {
-                            "id": 141,
-                            "name": "Kids"
-                        },
-                        {
-                            "id": 142,
-                            "name": "Precious Articles"
-                        }
-                    ]
-                },
-                {
-                    "id": 55,
-                    "name": "Women Western",
-                    "subdropdown": [
-                        {
-                            "id": 143,
-                            "name": "Tops"
-                        },
-                        {
-                            "id": 144,
-                            "name": "Dresses"
-                        },
-                        {
-                            "id": 145,
-                            "name": "Tshirts"
-                        },
-                        {
-                            "id": 146,
-                            "name": "Jeans"
-                        },
-                        {
-                            "id": 147,
-                            "name": "Night Dresses"
-                        },
-                        {
-                            "id": 148,
-                            "name": "Tracks"
-                        },
-                        {
-                            "id": 149,
-                            "name": "Trousers"
-                        }
-                    ]
-                },
-                {
-                    "id": 56,
-                    "name": "Bags, Suitcases & Luggage",
-                    "subdropdown": [
-                        {
-                            "id": 150,
-                            "name": "Bags"
-                        },
-                        {
-                            "id": 151,
-                            "name": "Suitcases"
-                        },
-                        {
-                            "id": 152,
-                            "name": "Luggage"
-                        },
-                        {
-                            "id": 153,
-                            "name": "Trolleys"
-                        },
-                        {
-                            "id": 154,
-                            "name": "Duffel Bags"
-                        },
-                        {
-                            "id": 155,
-                            "name": "Handbags"
-                        }
-                    ]
-                },
-                {
-                    "id": 57,
-                    "name": "Kids",
-                    "subdropdown": [
-                        {
-                            "id": 156,
-                            "name": "All"
-                        },
-                        {
-                            "id": 157,
-                            "name": "Boys"
-                        },
-                        {
-                            "id": 158,
-                            "name": "Girls"
-                        },
-                        {
-                            "id": 159,
-                            "name": "Jeans"
-                        },
-                        {
-                            "id": 160,
-                            "name": "Shorts"
-                        },
-                        {
-                            "id": 161,
-                            "name": "Trousers"
-                        }
-                    ]
-                },
-                {
-                    "id": 58,
-                    "name": "Essentials",
-                    "subdropdown": [
-                        {
-                            "id": 162,
-                            "name": "Men's Briefs & Trunks"
-                        },
-                        {
-                            "id": 163,
-                            "name": "Men's Vests"
-                        },
-                        {
-                            "id": 164,
-                            "name": "Men's Boxers"
-                        },
-                        {
-                            "id": 165,
-                            "name": "Women Bra"
-                        },
-                        {
-                            "id": 166,
-                            "name": "Women Panty"
-                        },
-                        {
-                            "id": 167,
-                            "name": "Boys Innerwear"
-                        },
-                        {
-                            "id": 168,
-                            "name": "Girls Innerwear"
-                        }
-                    ]
-                },
-                {
-                    "id": 59,
-                    "name": "Winter",
-                    "subdropdown": [
-                        {
-                            "id": 169,
-                            "name": "All"
-                        },
-                        {
-                            "id": 170,
-                            "name": "Men's Jackets"
-                        },
-                        {
-                            "id": 171,
-                            "name": "Men's Sweatshirts"
-                        },
-                        {
-                            "id": 172,
-                            "name": "Men's Sweaters"
-                        },
-                        {
-                            "id": 173,
-                            "name": "Women's Jackets"
-                        },
-                        {
-                            "id": 174,
-                            "name": "Women's Sweatshirts"
-                        },
-                        {
-                            "id": 175,
-                            "name": "Women's Sweaters"
-                        },
-                        {
-                            "id": 176,
-                            "name": "Kid's Sweatshirts"
-                        },
-                        {
-                            "id": 177,
-                            "name": "Kid's Sweaters"
-                        },
-                        {
-                            "id": 178,
-                            "name": "kid's Jackets"
-                        }
-                    ]
-                }
-            ]
+          "id": 52,
+          "name": "Men Footwear",
+          "subdropdown": [
+            {
+              "id": 121,
+              "name": "Casual Shoes"
+            },
+            {
+              "id": 122,
+              "name": "Sports Shoes"
+            },
+            {
+              "id": 123,
+              "name": "Formal Shoes"
+            },
+            {
+              "id": 124,
+              "name": "Sandals & Floaters"
+            },
+            {
+              "id": 125,
+              "name": "Flip Flops"
+            },
+            {
+              "id": 126,
+              "name": "Shoe Care"
+            }
+          ]
         },
         {
-            "id": 4,
-            "name": "Electronics",
-            "hasDropdown": true,
-            "image": "https://rukminim2.flixcart.com/flap/80/80/image/69c6589653afdb9a.png?q=100",
-            "dropdown": [
-                {
-                    "id": 60,
-                    "name": "Audio",
-                    "subdropdown": [
-                        {
-                            "id": 179,
-                            "name": "Bluetooth Headphones"
-                        },
-                        {
-                            "id": 180,
-                            "name": "Bluetooth Speakers"
-                        },
-                        {
-                            "id": 181,
-                            "name": "TWS"
-                        },
-                        {
-                            "id": 182,
-                            "name": "Nechband"
-                        },
-                        {
-                            "id": 183,
-                            "name": "Soundbars"
-                        },
-                        {
-                            "id": 184,
-                            "name": "Home Theatres"
-                        },
-                        {
-                            "id": 185,
-                            "name": "TV Streaming Device"
-                        }
-                    ]
-                },
-                {
-                    "id": 61,
-                    "name": "Electronics"
-                },
-                {
-                    "id": 62,
-                    "name": "Cameras & Accessories",
-                    "subdropdown": [
-                        {
-                            "id": 186,
-                            "name": "All"
-                        },
-                        {
-                            "id": 187,
-                            "name": "DSLR"
-                        },
-                        {
-                            "id": 188,
-                            "name": "Action"
-                        },
-                        {
-                            "id": 189,
-                            "name": "Camcorders"
-                        },
-                        {
-                            "id": 190,
-                            "name": "Tripods"
-                        },
-                        {
-                            "id": 191,
-                            "name": "Accessories"
-                        },
-                        {
-                            "id": 192,
-                            "name": "Lenses"
-                        }
-                    ]
-                },
-                {
-                    "id": 63,
-                    "name": "Computer Peripherals",
-                    "subdropdown": [
-                        {
-                            "id": 193,
-                            "name": "All"
-                        },
-                        {
-                            "id": 194,
-                            "name": "Printers"
-                        },
-                        {
-                            "id": 195,
-                            "name": "Monitors"
-                        },
-                        {
-                            "id": 196,
-                            "name": "Projectors"
-                        },
-                        {
-                            "id": 197,
-                            "name": "Scanners"
-                        },
-                        {
-                            "id": 198,
-                            "name": "Keyboards"
-                        },
-                        {
-                            "id": 199,
-                            "name": "Mice"
-                        },
-                        {
-                            "id": 200,
-                            "name": "Mouse Pads"
-                        }
-                    ]
-                },
-                {
-                    "id": 64,
-                    "name": "Gaming",
-                    "subdropdown": [
-                        {
-                            "id": 201,
-                            "name": "All"
-                        },
-                        {
-                            "id": 202,
-                            "name": "Gaming Consoles"
-                        },
-                        {
-                            "id": 203,
-                            "name": "Gaming Accessories"
-                        },
-                        {
-                            "id": 204,
-                            "name": "Gaming Laptops"
-                        },
-                        {
-                            "id": 205,
-                            "name": "Gaming Desktops"
-                        },
-                        {
-                            "id": 206,
-                            "name": "Gaming Monitors"
-                        }
-                    ]
-                }
-            ]
+          "id": 53,
+          "name": "Women Footwear",
+          "subdropdown": [
+            {
+              "id": 127,
+              "name": "Flats"
+            },
+            {
+              "id": 128,
+              "name": "Heels"
+            },
+            {
+              "id": 129,
+              "name": "Wedges"
+            },
+            {
+              "id": 130,
+              "name": "Wedges"
+            },
+            {
+              "id": 131,
+              "name": "Flip Flops"
+            },
+            {
+              "id": 132,
+              "name": "Casual Shoes"
+            },
+            {
+              "id": 133,
+              "name": "Sandals"
+            },
+            {
+              "id": 134,
+              "name": "Boots"
+            },
+            {
+              "id": 135,
+              "name": "Shoe Care"
+            },
+            {
+              "id": 136,
+              "name": "Sneakers"
+            }
+          ]
         },
         {
-            "id": 5,
-            "name": "Home & Furniture",
-            "hasDropdown": true,
-            "image": "https://rukminim2.flixcart.com/flap/80/80/image/ab7e2b022a4587dd.jpg?q=10",
-            "dropdown": [
-                {
-                    "id": 66,
-                    "name": "Furniture",
-                    "subdropdown": [
-                        {
-                            "id": 207,
-                            "name": "Home Decor"
-                        },
-                        {
-                            "id": 208,
-                            "name": "Kitchen & Dining"
-                        },
-                        {
-                            "id": 209,
-                            "name": "Bedroom"
-                        },
-                        {
-                            "id": 210,
-                            "name": "Living Room"
-                        },
-                        {
-                            "id": 211,
-                            "name": "Office"
-                        }
-                    ]
-                },
-                {
-                    "id": 67,
-                    "name": "Home Decor",
-                    "subdropdown": [
-                        {
-                            "id": 212,
-                            "name": "Home Decor"
-                        },
-                        {
-                            "id": 213,
-                            "name": "Kitchen & Dining"
-                        },
-                        {
-                            "id": 214,
-                            "name": "Bedroom"
-                        },
-                        {
-                            "id": 215,
-                            "name": "Living Room"
-                        },
-                        {
-                            "id": 216,
-                            "name": "Kitchen & Dining"
-                        },
-                        {
-                            "id": 217,
-                            "name": "Bedroom"
-                        },
-                        {
-                            "id": 218,
-                            "name": "Living Room"
-                        },
-                        {
-                            "id": 219,
-                            "name": "Office"
-                        }
-                    ]
-                },
-                {
-                    "id": 68,
-                    "name": "Kitchen & Dining",
-                    "subdropdown": [
-                        {
-                            "id": 220,
-                            "name": "Home Decor"
-                        },
-                        {
-                            "id": 221,
-                            "name": "Kitchen & Dining"
-                        },
-                        {
-                            "id": 222,
-                            "name": "Bedroom"
-                        },
-                        {
-                            "id": 223,
-                            "name": "Living Room"
-                        },
-                        {
-                            "id": 224,
-                            "name": "Office"
-                        }
-                    ]
-                },
-                {
-                    "id": 69,
-                    "name": "Bedroom",
-                    "subdropdown": [
-                        {
-                            "id": 225,
-                            "name": "Home Decor"
-                        },
-                        {
-                            "id": 226,
-                            "name": "Kitchen & Dining"
-                        },
-                        {
-                            "id": 227,
-                            "name": "Bedroom"
-                        },
-                        {
-                            "id": 228,
-                            "name": "Living Room"
-                        },
-                        {
-                            "id": 229,
-                            "name": "Office"
-                        }
-                    ]
-                }
-            ]
+          "id": 54,
+          "name": "Watches and Accessories",
+          "subdropdown": [
+            {
+              "id": 137,
+              "name": "Men's Watches"
+            },
+            {
+              "id": 138,
+              "name": "Women's Watches"
+            },
+            {
+              "id": 139,
+              "name": "Wallets"
+            },
+            {
+              "id": 140,
+              "name": "Belts"
+            },
+            {
+              "id": 141,
+              "name": "Kids"
+            },
+            {
+              "id": 142,
+              "name": "Precious Articles"
+            }
+          ]
         },
         {
-            "id": 6,
-            "name": "Appliances",
-            "hasDropdown": false,
-            "image": "https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0139228b2f7eb413.jpg?q=100"
+          "id": 55,
+          "name": "Women Western",
+          "subdropdown": [
+            {
+              "id": 143,
+              "name": "Tops"
+            },
+            {
+              "id": 144,
+              "name": "Dresses"
+            },
+            {
+              "id": 145,
+              "name": "Tshirts"
+            },
+            {
+              "id": 146,
+              "name": "Jeans"
+            },
+            {
+              "id": 147,
+              "name": "Night Dresses"
+            },
+            {
+              "id": 148,
+              "name": "Tracks"
+            },
+            {
+              "id": 149,
+              "name": "Trousers"
+            }
+          ]
         },
         {
-            "id": 7,
-            "name": "Flight Bookings",
-            "hasDropdown": false,
-            "image": "https://rukminim2.flixcart.com/flap/80/80/image/71050627a56b4693.png?q=100"
+          "id": 56,
+          "name": "Bags, Suitcases & Luggage",
+          "subdropdown": [
+            {
+              "id": 150,
+              "name": "Bags"
+            },
+            {
+              "id": 151,
+              "name": "Suitcases"
+            },
+            {
+              "id": 152,
+              "name": "Luggage"
+            },
+            {
+              "id": 153,
+              "name": "Trolleys"
+            },
+            {
+              "id": 154,
+              "name": "Duffel Bags"
+            },
+            {
+              "id": 155,
+              "name": "Handbags"
+            }
+          ]
         },
         {
-            "id": 8,
-            "name": "Beauty, Toys & More",
-            "hasDropdown": true,
-            "image": "https://rukminim2.flixcart.com/flap/80/80/image/dff3f7adcf3a90c6.png?q=100",
-            "dropdown": [
-                {
-                    "id": 70,
-                    "name": "Beauty",
-                    "subdropdown": [
-                        {
-                            "id": 230,
-                            "name": "Makeup"
-                        },
-                        {
-                            "id": 231,
-                            "name": "Skincare"
-                        },
-                        {
-                            "id": 232,
-                            "name": "Haircare"
-                        }
-                    ]
-                },
-                {
-                    "id": 71,
-                    "name": "Toys",
-                    "subdropdown": [
-                        {
-                            "id": 233,
-                            "name": "Toys for Boys"
-                        },
-                        {
-                            "id": 234,
-                            "name": "Toys for Girls"
-                        },
-                        {
-                            "id": 235,
-                            "name": "Toys for Kids"
-                        }
-                    ]
-                },
-                {
-                    "id": 72,
-                    "name": "Grooming",
-                    "subdropdown": [
-                        {
-                            "id": 236,
-                            "name": "Face Washes"
-                        },
-                        {
-                            "id": 237,
-                            "name": "Beard Oils"
-                        },
-                        {
-                            "id": 238,
-                            "name": "Shaving Essentials"
-                        }
-                    ]
-                }
-            ]
+          "id": 57,
+          "name": "Kids",
+          "subdropdown": [
+            {
+              "id": 156,
+              "name": "All"
+            },
+            {
+              "id": 157,
+              "name": "Boys"
+            },
+            {
+              "id": 158,
+              "name": "Girls"
+            },
+            {
+              "id": 159,
+              "name": "Jeans"
+            },
+            {
+              "id": 160,
+              "name": "Shorts"
+            },
+            {
+              "id": 161,
+              "name": "Trousers"
+            }
+          ]
         },
         {
-            "id": 9,
-            "name": "Two Wheelers",
-            "hasDropdown": true,
-            "image": "https://rukminim2.flixcart.com/fk-p-flap/80/80/image/05d708653beff580.png?q=100",
-            "dropdown": [
-                {
-                    "id": 73,
-                    "name": "Petrol Vehicles"
-                },
-                {
-                    "id": 74,
-                    "name": "Electric Vehicles"
-                }
-            ]
+          "id": 58,
+          "name": "Essentials",
+          "subdropdown": [
+            {
+              "id": 162,
+              "name": "Men's Briefs & Trunks"
+            },
+            {
+              "id": 163,
+              "name": "Men's Vests"
+            },
+            {
+              "id": 164,
+              "name": "Men's Boxers"
+            },
+            {
+              "id": 165,
+              "name": "Women Bra"
+            },
+            {
+              "id": 166,
+              "name": "Women Panty"
+            },
+            {
+              "id": 167,
+              "name": "Boys Innerwear"
+            },
+            {
+              "id": 168,
+              "name": "Girls Innerwear"
+            }
+          ]
+        },
+        {
+          "id": 59,
+          "name": "Winter",
+          "subdropdown": [
+            {
+              "id": 169,
+              "name": "All"
+            },
+            {
+              "id": 170,
+              "name": "Men's Jackets"
+            },
+            {
+              "id": 171,
+              "name": "Men's Sweatshirts"
+            },
+            {
+              "id": 172,
+              "name": "Men's Sweaters"
+            },
+            {
+              "id": 173,
+              "name": "Women's Jackets"
+            },
+            {
+              "id": 174,
+              "name": "Women's Sweatshirts"
+            },
+            {
+              "id": 175,
+              "name": "Women's Sweaters"
+            },
+            {
+              "id": 176,
+              "name": "Kid's Sweatshirts"
+            },
+            {
+              "id": 177,
+              "name": "Kid's Sweaters"
+            },
+            {
+              "id": 178,
+              "name": "kid's Jackets"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Electronics",
+      "hasDropdown": true,
+      "image": "https://rukminim2.flixcart.com/flap/80/80/image/69c6589653afdb9a.png?q=100",
+      "dropdown": [
+        {
+          "id": 60,
+          "name": "Audio",
+          "subdropdown": [
+            {
+              "id": 179,
+              "name": "Bluetooth Headphones"
+            },
+            {
+              "id": 180,
+              "name": "Bluetooth Speakers"
+            },
+            {
+              "id": 181,
+              "name": "TWS"
+            },
+            {
+              "id": 182,
+              "name": "Nechband"
+            },
+            {
+              "id": 183,
+              "name": "Soundbars"
+            },
+            {
+              "id": 184,
+              "name": "Home Theatres"
+            },
+            {
+              "id": 185,
+              "name": "TV Streaming Device"
+            }
+          ]
+        },
+        {
+          "id": 61,
+          "name": "Electronics"
+        },
+        {
+          "id": 62,
+          "name": "Cameras & Accessories",
+          "subdropdown": [
+            {
+              "id": 186,
+              "name": "All"
+            },
+            {
+              "id": 187,
+              "name": "DSLR"
+            },
+            {
+              "id": 188,
+              "name": "Action"
+            },
+            {
+              "id": 189,
+              "name": "Camcorders"
+            },
+            {
+              "id": 190,
+              "name": "Tripods"
+            },
+            {
+              "id": 191,
+              "name": "Accessories"
+            },
+            {
+              "id": 192,
+              "name": "Lenses"
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "name": "Computer Peripherals",
+          "subdropdown": [
+            {
+              "id": 193,
+              "name": "All"
+            },
+            {
+              "id": 194,
+              "name": "Printers"
+            },
+            {
+              "id": 195,
+              "name": "Monitors"
+            },
+            {
+              "id": 196,
+              "name": "Projectors"
+            },
+            {
+              "id": 197,
+              "name": "Scanners"
+            },
+            {
+              "id": 198,
+              "name": "Keyboards"
+            },
+            {
+              "id": 199,
+              "name": "Mice"
+            },
+            {
+              "id": 200,
+              "name": "Mouse Pads"
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "name": "Gaming",
+          "subdropdown": [
+            {
+              "id": 201,
+              "name": "All"
+            },
+            {
+              "id": 202,
+              "name": "Gaming Consoles"
+            },
+            {
+              "id": 203,
+              "name": "Gaming Accessories"
+            },
+            {
+              "id": 204,
+              "name": "Gaming Laptops"
+            },
+            {
+              "id": 205,
+              "name": "Gaming Desktops"
+            },
+            {
+              "id": 206,
+              "name": "Gaming Monitors"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Home & Furniture",
+      "hasDropdown": true,
+      "image": "https://rukminim2.flixcart.com/flap/80/80/image/ab7e2b022a4587dd.jpg?q=10",
+      "dropdown": [
+        {
+          "id": 66,
+          "name": "Furniture",
+          "subdropdown": [
+            {
+              "id": 207,
+              "name": "Home Decor"
+            },
+            {
+              "id": 208,
+              "name": "Kitchen & Dining"
+            },
+            {
+              "id": 209,
+              "name": "Bedroom"
+            },
+            {
+              "id": 210,
+              "name": "Living Room"
+            },
+            {
+              "id": 211,
+              "name": "Office"
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "name": "Home Decor",
+          "subdropdown": [
+            {
+              "id": 212,
+              "name": "Home Decor"
+            },
+            {
+              "id": 213,
+              "name": "Kitchen & Dining"
+            },
+            {
+              "id": 214,
+              "name": "Bedroom"
+            },
+            {
+              "id": 215,
+              "name": "Living Room"
+            },
+            {
+              "id": 216,
+              "name": "Kitchen & Dining"
+            },
+            {
+              "id": 217,
+              "name": "Bedroom"
+            },
+            {
+              "id": 218,
+              "name": "Living Room"
+            },
+            {
+              "id": 219,
+              "name": "Office"
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "name": "Kitchen & Dining",
+          "subdropdown": [
+            {
+              "id": 220,
+              "name": "Home Decor"
+            },
+            {
+              "id": 221,
+              "name": "Kitchen & Dining"
+            },
+            {
+              "id": 222,
+              "name": "Bedroom"
+            },
+            {
+              "id": 223,
+              "name": "Living Room"
+            },
+            {
+              "id": 224,
+              "name": "Office"
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "name": "Bedroom",
+          "subdropdown": [
+            {
+              "id": 225,
+              "name": "Home Decor"
+            },
+            {
+              "id": 226,
+              "name": "Kitchen & Dining"
+            },
+            {
+              "id": 227,
+              "name": "Bedroom"
+            },
+            {
+              "id": 228,
+              "name": "Living Room"
+            },
+            {
+              "id": 229,
+              "name": "Office"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Appliances",
+      "hasDropdown": false,
+      "image": "https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0139228b2f7eb413.jpg?q=100"
+    },
+    {
+      "id": 7,
+      "name": "Flight Bookings",
+      "hasDropdown": false,
+      "image": "https://rukminim2.flixcart.com/flap/80/80/image/71050627a56b4693.png?q=100"
+    },
+    {
+      "id": 8,
+      "name": "Beauty, Toys & More",
+      "hasDropdown": true,
+      "image": "https://rukminim2.flixcart.com/flap/80/80/image/dff3f7adcf3a90c6.png?q=100",
+      "dropdown": [
+        {
+          "id": 70,
+          "name": "Beauty",
+          "subdropdown": [
+            {
+              "id": 230,
+              "name": "Makeup"
+            },
+            {
+              "id": 231,
+              "name": "Skincare"
+            },
+            {
+              "id": 232,
+              "name": "Haircare"
+            }
+          ]
+        },
+        {
+          "id": 71,
+          "name": "Toys",
+          "subdropdown": [
+            {
+              "id": 233,
+              "name": "Toys for Boys"
+            },
+            {
+              "id": 234,
+              "name": "Toys for Girls"
+            },
+            {
+              "id": 235,
+              "name": "Toys for Kids"
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "name": "Grooming",
+          "subdropdown": [
+            {
+              "id": 236,
+              "name": "Face Washes"
+            },
+            {
+              "id": 237,
+              "name": "Beard Oils"
+            },
+            {
+              "id": 238,
+              "name": "Shaving Essentials"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Two Wheelers",
+      "hasDropdown": true,
+      "image": "https://rukminim2.flixcart.com/fk-p-flap/80/80/image/05d708653beff580.png?q=100",
+      "dropdown": [
+        {
+          "id": 73,
+          "name": "Petrol Vehicles"
+        },
+        {
+          "id": 74,
+          "name": "Electric Vehicles"
+        }
+      ]
+    }
+  ]
 }

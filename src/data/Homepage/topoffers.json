@@ -35,6 +35,24 @@
             "name": "Camera",
             "price": 39999,
             "image": "https://example.com/camera.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Tablet",
+            "price": 29999,
+            "image": "https://example.com/tablet.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Fitness Band",
+            "price": 2999,
+            "image": "https://example.com/fitnessband.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Smart Watch",
+            "price": 4999,
+            "image": "https://example.com/smartwatch.jpg"
         }
     ]
 }
